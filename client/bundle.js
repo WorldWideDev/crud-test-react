@@ -42,21 +42,27 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	var MyComponent = __webpack_require__(1);
+	ReactDOM.render(React.createElement(MyComponent, null), document.getElementById('app'));
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	console.log(React);
 	var MyComponent = React.createClass({
-	    displayName: 'MyComponent',
+	    displayName: "MyComponent",
 
 	    render: function () {
 	        return React.createElement(
-	            'p',
+	            "h1",
 	            null,
-	            'YAY'
+	            "YAYAYAY"
 	        );
 	    }
 	});
-	ReactDOM.render(React.createElement(MyComponent, null), document.getElementById('app'));
+	module.exports = MyComponent;
 
 /***/ }
 /******/ ]);

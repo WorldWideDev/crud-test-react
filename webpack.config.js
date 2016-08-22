@@ -1,8 +1,8 @@
 module.exports = {
-    entry: './client/app.js',
+    entry: './client/react_components/app.js',
     output: {
         filename: 'bundle.js',
-        path: __dirname + '/client/webpacked_code'
+        path: __dirname + '/client'
     },
     module:{
         loaders: [
