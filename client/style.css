@@ -1,0 +1,17 @@
+.container{
+    margin-top: 20px;
+}
+.user-create-inpt-errors{
+    border: solid rgb(189, 31, 31);
+}
+.user-row-inpt{
+    border-radius: 10px;
+    border: solid 1px green;
+}
+.user-row-inpt:focus{
+    outline: none;
+}
+.error{
+    color: rgb(189, 31, 31);
+    font-weight: bold;
+}
